@@ -1,0 +1,54 @@
+{
+    "name": "Alt+n tab switcher",
+    "description": "Press Alt+n to switch tabs. Only 4 shortcuts can be enabled by default. Refer to chrome://extensions/shortcuts to enable more",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Press Alt+n to switch between active Tabs"
+    },
+    "commands": {
+        "alt1": {
+            "suggested_key": {
+                "default": "Alt+1"
+            },
+            "description": "Alt+1"
+        },
+        "alt2": {
+            "suggested_key": {
+                "default": "Alt+2"
+            },
+            "description": "Alt+2"
+        },
+        "alt3": {
+            "suggested_key": {
+                "default": "Alt+3"
+            },
+            "description": "Alt+3"
+        },
+        "alt4": {
+            "suggested_key": {
+                "default": "Alt+4"
+            },
+            "description": "Alt+4"
+        },
+        "alt5": {
+            "description": "Alt+5"
+        },
+        "alt6": {
+            "description": "Alt+6"
+        },
+        "alt7": {
+            "description": "Alt+7"
+        },
+        "alt8": {
+            "description": "Alt+8"
+        },
+        "alt9": {
+            "description": "Alt+9"
+        }
+    }
+}
